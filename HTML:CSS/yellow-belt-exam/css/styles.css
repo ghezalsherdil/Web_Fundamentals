@@ -1,0 +1,64 @@
+body{
+  margin: 0px;
+  color: white;
+}
+/*header css*/
+.header{
+  background-color: rgb(26, 26, 26);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.header-support{
+  font-size: 20px;
+}
+
+/*menu css*/
+.menu {
+  height: 50px;
+  background-color: rgb(57, 57, 57);
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+.menu-separator {
+  padding: 0 10px;
+}
+
+.hero {
+  /*height: 400px;*/
+}
+
+.hero-image {
+  display: block;
+  width: 100%;
+}
+
+.hero-menu{
+  height: 200px;
+  background-color: rgb(26, 26, 26);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.hero-menu-item{
+  width: 25%;
+  height: 70%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.hero-menu-item-group{
+  padding: 0 10px;
+}
+
+.hero-menu-item-title {
+  color: rgb(221, 135, 66);
+}
+.add{
+  display: inline-block;
+  
+}

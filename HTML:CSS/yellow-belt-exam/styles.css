@@ -1,0 +1,150 @@
+body{
+  margin: 0px;
+  color: white;
+  background-color: rgb(26, 26, 26);
+}
+/*header css*/
+.header{
+  background-color: rgb(26, 26, 26);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.header-support{
+  font-size: 20px;
+}
+
+/*menu css*/
+.menu {
+  height: 50px;
+  background-color: rgb(57, 57, 57);
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+.menu-separator {
+  padding: 0 10px;
+}
+
+.hero {
+  /*height: 400px;*/
+}
+
+.hero-image {
+  display: block;
+  width: 100%;
+}
+
+.hero-menu{
+  height: 200px;
+  background-color: rgb(26, 26, 26);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.hero-menu-item{
+  width: 25%;
+  height: 70%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.hero-menu-item-group{
+  padding: 0 10px;
+}
+
+.hero-menu-item-title {
+  color: rgb(221, 135, 66);
+}
+.add{
+padding-top: 10px;
+padding-right: 30px;
+background-color: rgb(2,2,2);
+margin: 0;
+height: 100%;
+}
+.add-title{
+  display: inline-block;
+  align-items: flex-start;
+  margin: 10px;
+  font-size: 16px;
+  height: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 900px;
+  margin-right: 150px;
+
+}
+.add-content{
+  margin: 10px;
+  font-size: 10px;
+  margin-bottom: 20px;
+  height: 10px;
+  width: 50%
+  padding-top: 10px;
+  padding-left: 10px;
+}
+}
+.add-button{
+text-align: center;
+padding-bottom: 10px;
+margin-top: 10px;
+display: inline-block;;
+}
+.btn{
+margin-left: auto;
+margin-right: auto;
+color: white;
+background-color: rgb(221, 135, 66);
+padding: 5px 10px;
+border: 2px solid black;
+border-radius: 8px;
+box-shadow: 1px 2px 2px black;
+font-size: 12px;
+height: 22px;
+width: 51px;
+margin-left: 170px;
+}
+.port{
+  height: 50px;
+  display: flex;
+  margin-left: 50px;
+}
+.all-projects{
+  margin-left: 85%
+}
+.port-menu{
+  background-color: rgb(26, 26, 26);
+  align-items: center;
+  width: 24.0932%;
+  display: inline-block;
+}
+.port-menu-item{
+  display: inline-block;
+}
+.port-menu-item-group{
+  padding: 0 10px;
+}
+.port-menu-item-title{
+  color: rgb(221, 135, 66);
+  margin-left: 45px;
+}
+.port-menu-item-text{
+  display: flex;
+  align-items: flex-start;
+  margin-left: 45px;
+  font-size: 14px;
+  height: 10px;
+  padding-top: 2px;
+  padding-left: 2px;
+  width: 100%;
+}
+.port-image {
+  display: inline-block;
+  width: 75%;
+  border: 3px solid rgb(54,54,54);
+  margin-left: 50px;
+  margin-top: 20px;
