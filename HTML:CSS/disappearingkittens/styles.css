@@ -1,0 +1,17 @@
+.firstrow{
+  display: inline-block;
+  width: 100%;
+  height: 50%;
+  padding: 20px;
+}
+.secondrow{
+  display: inline-block;
+  width: 100%;
+  height: 50%;
+  padding: 20px;
+}
+
+img{
+  padding: 10px;
+  height: 225px;
+}
