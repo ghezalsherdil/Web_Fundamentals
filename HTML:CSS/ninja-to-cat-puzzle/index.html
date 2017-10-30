@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <title>Puzzle</title>
+</head>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+  $(".cat0").click(function(){
+    $(".cat0").attr("src", "img/ninja1.png");
+  });
+  $(".cat1").click(function(){
+    $(".cat1").attr("src", "img/ninja3.png");
+  });
+  $(".cat2").click(function(){
+    $(".cat2").attr("src", "img/ninja4.png");
+  });
+  $(".cat3").click(function(){
+    $(".cat3").attr("src", "img/ninja0.png");
+  });
+$(".cat4").click(function(){
+  $(".cat4").attr("src", "img/ninja2.png");
+});
+
+$(".ninja0").click(function(){
+  $(".ninja0").attr("src", "img/cat3.png");
+});
+$(".ninja1").click(function(){
+  $(".ninja1").attr("src", "img/cat0.png");
+});
+$(".ninja2").click(function(){
+  $(".ninja2").attr("src", "img/cat2.png");
+});
+$(".ninja3").click(function(){
+  $(".ninja3").attr("src", "img/cat1.png");
+});
+$(".ninja4").click(function(){
+$(".ninja4").attr("src", "img/cat4.png");
+});
+
+
+});
+
+
+</script>
+
+<body>
+  <h1>Ninja to Cat</h1>
+  <div class="box">
+    <img class="cat0" src="img/cat0.png" alt="cat0">
+    <img class="cat1" src="img/cat1.png" alt="cat1">
+    <img class="cat2" src="img/cat2.png" alt="cat2">
+    <img class="cat3" src="img/cat3.png" alt="cat3">
+    <img class="cat4" src="img/cat4.png" alt="cat4">
+    <img class="ninja0" src="img/ninja0.png" alt="ninga0">
+    <img class="ninja1" src="img/ninja1.png" alt="ninga1">
+    <img class="ninja2" src="img/ninja2.png" alt="ninga2">
+    <img class="ninja3" src="img/ninja3.png" alt="ninga3">
+    <img class="ninja4" src="img/ninja4.png" alt="ninga4">
+  </div>
+
+</body>
+</html>
