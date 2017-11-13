@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>test</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+  <body>
+    <div>
+      <span>Your Gold: {{gold}}</span>
+    </div>
+    <div class="Gold-wrapper">
+      <div class="Gold-Building">
+        <h3>Farm</h3>
+        <p>(earns 10-20 golds)</p>
+        <form action="/process_money" method="post">
+          <input type="hidden" name="Building" value="Farm"/>
+          <input type="submit" value="Find Gold!"/>
+        </form>
+      </div>
+
+      <div class="Gold-Building">
+        <h3>Cave</h3>
+        <p>(earns 5-10 golds)</p>
+        <form action="/process_money" method="post">
+          <input type="hidden" name="Building" value="Cave"/>
+          <input type="submit" value="Find Gold!"/>
+        </form>
+      </div>
+
+      <div class="Gold-Building">
+        <h3>House</h3>
+        <p>(earns 2-5 golds)</p>
+        <form action="/process_money" method="post">
+          <input type="hidden" name="Building" value="House"/>
+          <input type="submit" value="Find Gold!"/>
+        </form>
+      </div>
+
+      <div class="Gold-Building">
+        <h3>Casino</h3>
+        <p>(earns/takes 0-50 golds)</p>
+        <form action="/process_money" method="post">
+          <input type="hidden" name="Building" value="Casino"/>
+          <input type="submit" value="Find Gold!"/>
+        </form>
+      </div>
+    </div>
+
+    <div class="Activities">
+      <h3>Activities: </h3>
+      <div class="Activities-log">
+        {% for activity in activities %}
+          <div>{{activity|safe}}</div>
+        {% endfor %}
+      </div>
+    </div>
+  </body>
+</html>
