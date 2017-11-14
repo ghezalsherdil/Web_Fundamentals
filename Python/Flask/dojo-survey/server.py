@@ -5,14 +5,13 @@ app = Flask (__name__)
 def index():
     return render_template("index.html")
 
-@app.route('/test', methods=["POST"])
-
+@app.route('/survey', methods=["POST"])
 def survey():
     print "Got Post Info"
-    print request.form['name']
-    print request.form['location']
-    print request.form['rows']
+    return request.form['name']
+    return request.form['location']
+    return request.form['rows']
     return "got data"
-    return redirect('/test')
+    return redirect('/survey')
 
 app.run(debug=True)
